@@ -64,6 +64,21 @@ const translations = {
       steps: [["النقل إلى الأبراج", "نقل الصقور بعمر 30 يومًا إلى أبراج خارجية مخصصة للتأقلم والنمو الطبيعي."], ["تغذية طبيعية", "تغذية طبيعية لمدة 45 يومًا تعزز القوة، المناعة، والاستعداد للطيران."], ["مركز استقبال مستقبلي", "غرفة استقبال مستقبلية تليق بالزوار والشركاء، وتحوّل المركز إلى واجهة فخر لكازان."]]
     },
     sustainability: ["Sustainability", "الوفاء للطبيعة", "مقابل كل نجاح تجاري، نلتزم بإعادة توطين الصقور في البرية الروسية سنويًا، حتى الوصول إلى إطلاق عدد من الطيور بنسبة 10% كل عام من إنتاجنا، لضمان استدامة هذه الأساطير في موطنها الأصلي."],
+    shared: {
+      eyebrow: "Strategic Partnership",
+      title: "المصالح المشتركة",
+      brand: "KAZAN FALCON",
+      paragraphs: [
+        "لا يقوم مركز كازان على إنتاج الصقور فحسب… بل على بناء منظومة استراتيجية طويلة المدى، تجمع بين الإرث الروسي العريق في تربية الصقور، والخبرة الخليجية المتجذرة في الصقارة، ضمن رؤية تهدف إلى إعادة تشكيل مكانة السلالات الروسية في الأسواق العالمية والخليجية على وجه الخصوص.",
+        "فعلى امتداد العقود الماضية، امتلكت روسيا واحدة من أقوى السلالات الجينية في عالم الصقور، والتي شكّلت أساسًا للعديد من خطوط الإنتاج العالمية الحالية. ومع مرور الوقت، تراجع حضور هذه السلالات في الواجهة الخليجية، رغم استمرار تأثيرها الجيني في أهم برامج التهجين والإنتاج حول العالم.",
+        "ومن هنا، يأتي دور مركز كازان… ليس فقط كمشروع إنتاج، بل كجسر يعيد ربط هذه السلالات بجذورها الطبيعية، وينقل المعرفة والخبرة الروسية إلى جيل جديد من الشراكات والتطوير، بما يواكب تطلعات السوق الخليجي الحديث، ويحافظ في الوقت ذاته على الهوية الأصيلة لهذه السلالات.",
+        "نحن نؤمن أن المعرفة الحقيقية لا يجب أن تبقى محصورة داخل الحدود، بل يجب أن تُنقل، وتُطوّر، وتُعاد صياغتها ضمن منظومة حديثة تجمع بين البحث العلمي، الاستدامة، والإنتاج عالي القيمة.",
+        "كما يسعى المشروع إلى إعادة الطيور الروسية إلى الواجهة الخليجية من جديد، ليس باعتبارها مجرد صقور نادرة، بل باعتبارها جزءًا من تاريخ الصقارة الحقيقي، وسلالات تمتلك حضورًا وهيبة وجودة لا يمكن تكرارها بسهولة.",
+        "ويمثل التعاون بين روسيا والخليج في هذا المشروع نموذجًا لمصالح مشتركة تتجاوز التجارة التقليدية، لتشمل البحث العلمي، حماية السلالات، تبادل الخبرات، وتطوير برامج تتبع وإطلاق تساهم في دعم الاستدامة البيئية.",
+        "في مركز كازان، نحن لا نعيد إنتاج الماضي… بل نعيد إطلاقه نحو المستقبل.",
+        "من روسيا… تعود السلالات إلى مكانتها في سماء الخليج والعالم."
+      ]
+    },
     film: ["Kazan Falcon Film", "مشهد المشروع"],
     career: {
       intro: ["Career Opportunities", "Join Our Team", "إذا كان لديك الشغف والخبرة في مجال الصقارة، ندعوك للانضمام إلى فريقنا."],
@@ -115,6 +130,21 @@ const translations = {
     roadmap: { intro: ["Roadmap & Facilities", "From Foundation to Sovereignty"], items: [["Launch", "30 pairs", "Starting with elite bloodlines as a solid genetic foundation."], ["Location", "Kazan", "An authentic Russian environment that connects the bloodlines to their roots and gives the project its international presence."], ["Facilities", "Release Towers + Reception", "Outdoor falcon release towers and a future reception room so the center becomes a source of pride for Kazan."], ["Goal 2029", "300 falcons", "Annual production of Elite-class falcons with global specifications."]] },
     production: { eyebrow: "Production Philosophy", title: "Production Philosophy", quote: "We do not raise falcons in closed rooms… we make beasts in nature", steps: [["Transfer to Towers", "Transferring falcons at 30 days old to outdoor towers dedicated to adaptation and natural growth."], ["Natural Feeding", "Natural feeding for 45 days that strengthens power, immunity, and readiness for flight."], ["Future Reception Center", "A future reception room worthy of visitors and partners, turning the center into a proud face of Kazan."]] },
     sustainability: ["Sustainability", "Faithfulness to Nature", "For every commercial success, we commit to reintroducing falcons annually into the Russian wild, until reaching the release of a number of birds equal to 10% each year from our production, to ensure the sustainability of these legends in their original homeland."],
+    shared: {
+      eyebrow: "Strategic Partnership",
+      title: "Mutual Interests",
+      brand: "KAZAN FALCON",
+      paragraphs: [
+        "Kazan Center is not based only on producing falcons… but on building a long-term strategic system that brings together the deep Russian heritage in falcon breeding and the deeply rooted Gulf expertise in falconry, within a vision that aims to reshape the position of Russian bloodlines in global markets and Gulf markets in particular.",
+        "Over the past decades, Russia has possessed one of the strongest genetic bloodlines in the world of falcons, which formed a foundation for many current global production lines. With time, the presence of these bloodlines in the Gulf front declined, despite their genetic influence continuing in the most important hybridization and production programs around the world.",
+        "From here comes the role of Kazan Center… not only as a production project, but as a bridge that reconnects these bloodlines with their natural roots, and transfers Russian knowledge and expertise to a new generation of partnerships and development, in a way that matches the aspirations of the modern Gulf market while preserving the original identity of these bloodlines.",
+        "We believe true knowledge should not remain confined within borders, but should be transferred, developed, and reformulated within a modern system that combines scientific research, sustainability, and high-value production.",
+        "The project also seeks to bring Russian birds back to the Gulf front again, not as merely rare falcons, but as part of the real history of falconry, and as bloodlines with presence, prestige, and quality that cannot be easily repeated.",
+        "Cooperation between Russia and the Gulf in this project represents a model of mutual interests that goes beyond traditional trade, to include scientific research, protection of bloodlines, exchange of expertise, and development of tracking and release programs that contribute to supporting environmental sustainability.",
+        "At Kazan Center, we do not reproduce the past… we relaunch it toward the future.",
+        "From Russia… the bloodlines return to their place in the skies of the Gulf and the world."
+      ]
+    },
     film: ["Kazan Falcon Film", "Project Scene"],
     career: { intro: ["Career Opportunities", "Join Our Team", "If you have passion and experience in falconry, we invite you to join our team."], role: ["We are looking for", "Executive Director", "Executive Director", "With high experience in Falcon Breeding & Production, preferably of Russian nationality, to lead operations and supervise the development of the center according to the highest professional standards."], req: ["Requirements", ["Advanced experience in falcon production and management of breeding programs", "Precise knowledge of bloodlines and hybridization (Gyr, Saker, Peregrine)", "Understanding of production, feeding, and care cycles", "Ability to manage a team and operate a complete production center"]], apply: ["Application", "If you see in yourself competence and passion, please contact us and send your professional data.", "We are looking for real experience in production… leading a project by global standards"] },
     contact: ["Contact", "Contact Us", ["Email", "To be added later"], ["Contact Numbers", "To be added later"], ["Telegram", "To be added later"]],
@@ -158,6 +188,21 @@ const translations = {
     roadmap: { intro: ["Roadmap & Facilities", "От основания к суверенитету"], items: [["Старт", "30 пар", "Начало с элитных линий как прочной генетической основы."], ["Место", "Казань", "Исконная российская среда, связывающая линии с их корнями и придающая проекту международное присутствие."], ["Объекты", "Башни выпуска + приём", "Наружные башни выпуска соколов и будущая приёмная комната, чтобы центр стал предметом гордости Казани."], ["Цель 2029", "300 соколов", "Ежегодное производство соколов класса Elite по мировым спецификациям."]] },
     production: { eyebrow: "Production Philosophy", title: "Философия производства", quote: "Мы не выращиваем соколов в закрытых комнатах… мы создаём зверей в природе", steps: [["Перевод в башни", "Перевод соколов в возрасте 30 дней в наружные башни, предназначенные для адаптации и естественного роста."], ["Естественное кормление", "Естественное кормление в течение 45 дней, укрепляющее силу, иммунитет и готовность к полёту."], ["Будущий приёмный центр", "Будущая приёмная комната, достойная посетителей и партнёров, превращающая центр в лицо гордости Казани."]] },
     sustainability: ["Sustainability", "Верность природе", "За каждый коммерческий успех мы обязуемся ежегодно возвращать соколов в российскую дикую природу, пока выпуск птиц не достигнет 10% каждый год от нашего производства, чтобы обеспечить устойчивость этих легенд на их родине."],
+    shared: {
+      eyebrow: "Стратегическое партнёрство",
+      title: "Общие интересы",
+      brand: "KAZAN FALCON",
+      paragraphs: [
+        "Казанский центр основан не только на производстве соколов… но и на построении долгосрочной стратегической системы, объединяющей древнее российское наследие в разведении соколов и глубоко укоренённый опыт стран Персидского залива в соколиной охоте, в рамках видения, направленного на переосмысление места российских линий на мировых рынках и особенно на рынках Залива.",
+        "На протяжении прошлых десятилетий Россия обладала одной из самых сильных генетических линий в мире соколов, которая стала основой для многих современных мировых производственных линий. Со временем присутствие этих линий на переднем плане рынка Залива снизилось, несмотря на продолжающееся генетическое влияние в важнейших программах гибридизации и производства по всему миру.",
+        "Отсюда и роль Казанского центра… не только как производственного проекта, но как моста, который вновь связывает эти линии с их природными корнями и передаёт российские знания и опыт новому поколению партнёрств и развития, соответствуя ожиданиям современного рынка Залива и одновременно сохраняя подлинную идентичность этих линий.",
+        "Мы верим, что истинное знание не должно оставаться ограниченным границами, а должно передаваться, развиваться и заново формироваться внутри современной системы, объединяющей научные исследования, устойчивость и производство высокой ценности.",
+        "Проект также стремится снова вернуть российских птиц на передний план рынка Залива, не как просто редких соколов, а как часть подлинной истории соколиной охоты и как линии, обладающие присутствием, величием и качеством, которое трудно повторить.",
+        "Сотрудничество между Россией и странами Залива в этом проекте представляет собой модель общих интересов, выходящую за рамки традиционной торговли, и включает научные исследования, защиту линий, обмен опытом, а также развитие программ отслеживания и выпуска, которые поддерживают экологическую устойчивость.",
+        "В Казанском центре мы не воспроизводим прошлое… мы заново запускаем его в будущее.",
+        "Из России… линии возвращаются на своё место в небе Залива и мира."
+      ]
+    },
     film: ["Kazan Falcon Film", "Сцена проекта"],
     career: { intro: ["Career Opportunities", "Join Our Team", "Если у вас есть страсть и опыт в области соколиной охоты, мы приглашаем вас присоединиться к нашей команде."], role: ["Мы ищем", "Исполнительный директор", "Executive Director", "С большим опытом в производстве соколов (Falcon Breeding & Production), желательно российской национальности, для руководства операциями и контроля развития центра по высочайшим профессиональным стандартам."], req: ["Требования", ["Продвинутый опыт в производстве соколов и управлении программами разведения", "Точное знание линий и гибридизации (Gyr, Saker, Peregrine)", "Понимание циклов производства, кормления и ухода", "Способность управлять командой и запускать полноценный производственный центр"]], apply: ["Подача заявки", "Если вы видите в себе компетентность и страсть, пожалуйста, свяжитесь с нами и отправьте свои профессиональные данные.", "Мы ищем реальный опыт в производстве… который ведёт проект по мировым стандартам"] },
     contact: ["Contact", "Связаться с нами", ["Электронная почта", "Будет добавлено позже"], ["Контактные номера", "Будут добавлены позже"], ["Telegram", "Будет добавлено позже"]],
@@ -280,6 +325,14 @@ function applyLanguage(lang) {
   setText("#sustainability .eyebrow", t.sustainability[0]);
   setText("#sustainability-title", t.sustainability[1]);
   setText("#sustainability p:not(.eyebrow)", t.sustainability[2]);
+
+  setText(".shared-kicker .eyebrow", t.shared.eyebrow);
+  setText("#shared-interests-title", t.shared.title);
+  setText(".shared-kicker strong", t.shared.brand);
+  $$(".shared-copy p").forEach((paragraph, index) => {
+    if (t.shared.paragraphs[index]) paragraph.textContent = t.shared.paragraphs[index];
+  });
+
   setText(".film-section .eyebrow", t.film[0]);
   setText("#film-title", t.film[1]);
 
