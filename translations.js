@@ -26,16 +26,15 @@ const translations = {
       ["شاهين كاليدوس", "Russian Calidus", "درة التاج الروسي، يمتاز بلونه الأشقر الفاتح وصلابته القطبية الفريدة.", [["الأصل", "شمال روسيا."], ["التميّز", "ثبات جيني وحضور قوي في برامج التهجين."]]],
       ["شاهين نرويجي", "Norwegian", "يمتاز بضخامة الهيكل وقوة الصدر، ويُستخدم كركيزة في إنتاج الهجن ذات البنية الكبيرة.", [["الأصل", "النرويج."], ["الدور", "تعزيز الحجم والقوة في خطوط الإنتاج."]]],
       ["شاهين اسكتلندي", "Scottish Peregrine", "خط أوروبي قوي يُضاف إلى مجموعة الشواهين لتوسيع التنوع الجيني وتعزيز خيارات الإنتاج.", [["الأصل", "اسكتلندا."], ["الدور", "إضافة صلابة وتنوع إلى خطوط الشواهين."]]],
-      ["شاهين ويلز", "Welsh Peregrine", "فصيلة ضمن خط الشواهين الأوروبي، مخصصة لدعم برامج الانتخاب والتزاوج بحسب الصفات المطلوبة.", [["الأصل", "ويلز."], ["الدور", "تنويع السلالة وتعزيز خيارات الانتخاب."]]],
       ["شاهين كاسيني", "Cassini", "الأسرع في المناورة والانعطاف، والمفضل في سباقات الملواح العالمية.", [["الأصل", "الأرجنتين."], ["القوة", "سرعة تغيير الاتجاه والاستجابة العالية."]]],
       ["الشاهين الجبلي", "Mountain Peregrine", "يتواجد في أغلب دول العالم مع اختلاف الحجم من منطقة إلى أخرى، ويمتاز بصغر حجمه وسرعته العالية ومناعته القوية.", [["الانتشار", "حضور واسع في البيئات الجبلية حول العالم."], ["التميّز", "سرعة، خفة، وقدرة عالية على التكيف."]]],
       ["عمالقة الجير", "Pure Gyrfalcons", "خط الجير النقي بألوانه الكبرى: الأسود يمينًا، الرمادي في الوسط، والأبيض يسارًا، مع تقسيم الأبيض إلى درجات أعلى حسب النقاء والندرة.", [["الأصل", "القطب الشمالي الروسي وكامتشاتكا."], ["القيمة", "قوة الحجم والنقاء البصري والجيني."]]],
       ["الحر الروسي", "Pure Russian Saker", "سلالة أصيلة تمتاز بعرض الظهر والقوة التقليدية، وتربط المشروع بالموروث الروسي في الصقارة.", [["الأصل", "السهول والبراري الروسية وتتارستان."], ["التميّز", "قوة تحمل وبنية كلاسيكية مطلوبة."]]]
     ],
     gyr: [
-      ["الجير الأسود", "جير داكن ونادر، يتميز بقوة الحضور وارتفاع الطلب في فئة الصقور النخبوية."],
-      ["الجير الرمادي", "جير متوازن في اللون والبنية، يجمع بين القوة والثبات ويخدم برامج الإنتاج الأساسية."],
-      ["الجير الأبيض", "النوع الأيسر في الصورة، وينقسم إلى وايت، سوبر وايت، والترا وايت."]
+      ["جير كازان الأسود", "جير داكن ونادر، يتميز بقوة الحضور وارتفاع الطلب في فئة الصقور النخبوية."],
+      ["جير موسكو الرمادي", "جير متوازن في اللون والبنية، يجمع بين القوة والثبات ويخدم برامج الإنتاج الأساسية."],
+      ["الجير السيبيري الأبيض", "جير أبيض نقي، وينقسم إلى وايت، سوبر وايت، والترا وايت بحسب درجة النقاء والندرة."]
     ],
     science: {
       eyebrow: "Release & Tracking",
@@ -111,13 +110,12 @@ const translations = {
       ["Calidus Peregrine", "Russian Calidus", "The jewel of the Russian crown, distinguished by its light blond color and unique polar toughness.", [["Origin", "Northern Russia."], ["Distinction", "Genetic stability and strong presence in hybridization programs."]]],
       ["Norwegian Peregrine", "Norwegian", "Distinguished by a large frame and powerful chest, and used as a foundation for producing large-structured hybrids.", [["Origin", "Norway."], ["Role", "Enhancing size and power in production lines."]]],
       ["Scottish Peregrine", "Scottish Peregrine", "A strong European line added to the peregrine group to expand genetic diversity and strengthen production options.", [["Origin", "Scotland."], ["Role", "Adding toughness and diversity to peregrine lines."]]],
-      ["Welsh Peregrine", "Welsh Peregrine", "A species within the European peregrine line, dedicated to supporting selection and pairing programs according to required traits.", [["Origin", "Wales."], ["Role", "Diversifying the line and strengthening selection options."]]],
       ["Cassini Peregrine", "Cassini", "The fastest in maneuvering and turning, and preferred in global lure-racing competitions.", [["Origin", "Argentina."], ["Power", "Fast change of direction and high responsiveness."]]],
       ["Mountain Peregrine", "Mountain Peregrine", "Found in most countries of the world, with size varying from region to region, and distinguished by its small size, high speed, and strong immunity.", [["Distribution", "Wide presence in mountain environments around the world."], ["Distinction", "Speed, lightness, and high adaptability."]]],
       ["Gyr Giants", "Pure Gyrfalcons", "The pure gyr line in its major colors: black on the right, gray in the middle, and white on the left, with white divided into higher grades according to purity and rarity.", [["Origin", "The Russian Arctic and Kamchatka."], ["Value", "Power of size and visual and genetic purity."]]],
       ["Russian Saker", "Pure Russian Saker", "An authentic line distinguished by back width and traditional strength, connecting the project to Russian falconry heritage.", [["Origin", "Russian plains and steppes and Tatarstan."], ["Distinction", "Endurance and a demanded classic structure."]]]
     ],
-    gyr: [["Black Gyr", "A dark and rare gyr, distinguished by powerful presence and high demand in the elite falcon category."], ["Gray Gyr", "A gyr balanced in color and structure, combining power and stability and serving core production programs."], ["White Gyr", "The left type in the image, divided into White, Super White, and Ultra White."]],
+    gyr: [["Kazan Black Gyr", "A dark and rare gyr, distinguished by powerful presence and high demand in the elite falcon category."], ["Moscow Gray Gyr", "A gyr balanced in color and structure, combining power and stability and serving core production programs."], ["Siberian White Gyr", "A pure white gyr, divided into White, Super White, and Ultra White according to purity and rarity."]],
     science: {
       eyebrow: "Release & Tracking",
       title: "Release and Tracking",
@@ -169,13 +167,12 @@ const translations = {
       ["Сапсан Calidus", "Russian Calidus", "Жемчужина российской короны, отличающаяся светло-русым окрасом и уникальной полярной стойкостью.", [["Происхождение", "Север России."], ["Отличие", "Генетическая стабильность и сильное присутствие в программах гибридизации."]]],
       ["Норвежский сапсан", "Norwegian", "Отличается крупным корпусом и мощной грудью и используется как основа для производства гибридов крупного строения.", [["Происхождение", "Норвегия."], ["Роль", "Усиление размера и силы в производственных линиях."]]],
       ["Шотландский сапсан", "Scottish Peregrine", "Сильная европейская линия, добавленная к группе сапсанов для расширения генетического разнообразия и усиления производственных возможностей.", [["Происхождение", "Шотландия."], ["Роль", "Добавление стойкости и разнообразия к линиям сапсанов."]]],
-      ["Сапсан Уэльса", "Welsh Peregrine", "Порода в рамках европейской линии сапсанов, предназначенная для поддержки программ отбора и спаривания по требуемым признакам.", [["Происхождение", "Уэльс."], ["Роль", "Разнообразие линии и усиление возможностей отбора."]]],
       ["Сапсан Кассини", "Cassini", "Самый быстрый в маневре и развороте, предпочитаемый в мировых соревнованиях на вабило.", [["Происхождение", "Аргентина."], ["Сила", "Быстрая смена направления и высокая отзывчивость."]]],
       ["Горный сапсан", "Mountain Peregrine", "Встречается в большинстве стран мира, с различием размера от региона к региону, и отличается малым размером, высокой скоростью и сильным иммунитетом.", [["Распространение", "Широкое присутствие в горных средах по всему миру."], ["Отличие", "Скорость, лёгкость и высокая способность к адаптации."]]],
       ["Гиганты кречета", "Pure Gyrfalcons", "Чистая линия кречета в её главных цветах: чёрный справа, серый в середине и белый слева, с разделением белого на более высокие степени по чистоте и редкости.", [["Происхождение", "Российская Арктика и Камчатка."], ["Ценность", "Сила размера и визуальная и генетическая чистота."]]],
       ["Русский балобан", "Pure Russian Saker", "Аутентичная линия, отличающаяся шириной спины и традиционной силой, связывающая проект с российским наследием соколиной охоты.", [["Происхождение", "Российские равнины и степи и Татарстан."], ["Отличие", "Выносливость и востребованное классическое строение."]]]
     ],
-    gyr: [["Чёрный кречет", "Тёмный и редкий кречет, отличающийся силой присутствия и высоким спросом в категории элитных соколов."], ["Серый кречет", "Кречет, сбалансированный по цвету и строению, объединяющий силу и стабильность и служащий базовым производственным программам."], ["Белый кречет", "Левый тип на изображении, подразделяется на White, Super White и Ultra White."]],
+    gyr: [["Казанский чёрный кречет", "Тёмный и редкий кречет, отличающийся силой присутствия и высоким спросом в категории элитных соколов."], ["Московский серый кречет", "Кречет, сбалансированный по цвету и строению, объединяющий силу и стабильность и служащий базовым производственным программам."], ["Сибирский белый кречет", "Чистый белый кречет, подразделяющийся на White, Super White и Ultra White по степени чистоты и редкости."]],
     science: {
       eyebrow: "Release & Tracking",
       title: "Выпуск и отслеживание",
