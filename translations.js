@@ -365,4 +365,15 @@ $$(".language-switch button").forEach((button) => {
   button.addEventListener("click", () => applyLanguage(button.dataset.lang));
 });
 
+$$(".peregrine-controls button").forEach((button) => {
+  button.addEventListener("click", () => {
+    const track = $(".peregrine-track");
+    const card = track?.querySelector(".species-item");
+    if (!track || !card) return;
+    const direction = Number(button.dataset.peregrineScroll || 1);
+    const distance = card.getBoundingClientRect().width + 16;
+    track.scrollBy({ left: distance * direction, behavior: "smooth" });
+  });
+});
+
 applyLanguage("ru");
