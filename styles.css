@@ -440,12 +440,14 @@ h2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.peregrine-controls {
+.peregrine-controls,
+.gyr-controls {
   display: flex;
   gap: 0.75rem;
 }
 
-.peregrine-controls button {
+.peregrine-controls button,
+.gyr-controls button {
   display: grid;
   width: 3.4rem;
   height: 3.4rem;
@@ -460,7 +462,8 @@ h2 {
   transition: transform 180ms ease, background 180ms ease;
 }
 
-.peregrine-controls button:hover {
+.peregrine-controls button:hover,
+.gyr-controls button:hover {
   background: var(--gold);
   transform: translateY(-1px);
 }
@@ -539,6 +542,33 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
   margin: 1.35rem 0 0.4rem;
+}
+
+.gyr-carousel {
+  display: grid;
+  gap: 1rem;
+  overflow: hidden;
+  margin-top: 1.35rem;
+}
+
+.gyr-track {
+  grid-auto-columns: minmax(min(100%, 280px), min(100%, 360px));
+  grid-auto-flow: column;
+  grid-template-columns: none;
+  overflow-x: auto;
+  margin: 0;
+  padding-bottom: 0.35rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.gyr-track::-webkit-scrollbar {
+  display: none;
+}
+
+.gyr-track section {
+  scroll-snap-align: start;
 }
 
 .variant-grid section {
@@ -1103,6 +1133,11 @@ footer p {
 
   .variant-grid {
     grid-template-columns: 1fr;
+  }
+
+  .gyr-track {
+    grid-auto-columns: minmax(82vw, 1fr);
+    grid-template-columns: none;
   }
 
   .timeline article,

@@ -32,9 +32,9 @@ const translations = {
       ["الحر الروسي", "Pure Russian Saker", "سلالة أصيلة تمتاز بعرض الظهر والقوة التقليدية، وتربط المشروع بالموروث الروسي في الصقارة.", [["الأصل", "السهول والبراري الروسية وتتارستان."], ["التميّز", "قوة تحمل وبنية كلاسيكية مطلوبة."]]]
     ],
     gyr: [
-      ["جير كازان الأسود", "جير داكن ونادر، يتميز بقوة الحضور وارتفاع الطلب في فئة الصقور النخبوية."],
-      ["جير موسكو الرمادي", "جير متوازن في اللون والبنية، يجمع بين القوة والثبات ويخدم برامج الإنتاج الأساسية."],
-      ["الجير السيبيري الأبيض", "جير أبيض نقي، وينقسم إلى وايت، سوبر وايت، والترا وايت بحسب درجة النقاء والندرة."]
+      ["الجير الأسود", "جير داكن ونادر، يتميز بقوة الحضور وارتفاع الطلب في فئة الصقور النخبوية."],
+      ["الجير الرمادي", "جير متوازن في اللون والبنية، يجمع بين القوة والثبات ويخدم برامج الإنتاج الأساسية."],
+      ["الجير الأبيض", "جير أبيض نقي، وينقسم إلى وايت، سوبر وايت، والترا وايت بحسب درجة النقاء والندرة."]
     ],
     science: {
       eyebrow: "Release & Tracking",
@@ -115,7 +115,7 @@ const translations = {
       ["Gyr Giants", "Pure Gyrfalcons", "The pure gyr line in its major colors: black on the right, gray in the middle, and white on the left, with white divided into higher grades according to purity and rarity.", [["Origin", "The Russian Arctic and Kamchatka."], ["Value", "Power of size and visual and genetic purity."]]],
       ["Russian Saker", "Pure Russian Saker", "An authentic line distinguished by back width and traditional strength, connecting the project to Russian falconry heritage.", [["Origin", "Russian plains and steppes and Tatarstan."], ["Distinction", "Endurance and a demanded classic structure."]]]
     ],
-    gyr: [["Kazan Black Gyr", "A dark and rare gyr, distinguished by powerful presence and high demand in the elite falcon category."], ["Moscow Gray Gyr", "A gyr balanced in color and structure, combining power and stability and serving core production programs."], ["Siberian White Gyr", "A pure white gyr, divided into White, Super White, and Ultra White according to purity and rarity."]],
+    gyr: [["Black Gyr", "A dark and rare gyr, distinguished by powerful presence and high demand in the elite falcon category."], ["Gray Gyr", "A gyr balanced in color and structure, combining power and stability and serving core production programs."], ["White Gyr", "A pure white gyr, divided into White, Super White, and Ultra White according to purity and rarity."]],
     science: {
       eyebrow: "Release & Tracking",
       title: "Release and Tracking",
@@ -172,7 +172,7 @@ const translations = {
       ["Гиганты кречета", "Pure Gyrfalcons", "Чистая линия кречета в её главных цветах: чёрный справа, серый в середине и белый слева, с разделением белого на более высокие степени по чистоте и редкости.", [["Происхождение", "Российская Арктика и Камчатка."], ["Ценность", "Сила размера и визуальная и генетическая чистота."]]],
       ["Русский балобан", "Pure Russian Saker", "Аутентичная линия, отличающаяся шириной спины и традиционной силой, связывающая проект с российским наследием соколиной охоты.", [["Происхождение", "Российские равнины и степи и Татарстан."], ["Отличие", "Выносливость и востребованное классическое строение."]]]
     ],
-    gyr: [["Казанский чёрный кречет", "Тёмный и редкий кречет, отличающийся силой присутствия и высоким спросом в категории элитных соколов."], ["Московский серый кречет", "Кречет, сбалансированный по цвету и строению, объединяющий силу и стабильность и служащий базовым производственным программам."], ["Сибирский белый кречет", "Чистый белый кречет, подразделяющийся на White, Super White и Ultra White по степени чистоты и редкости."]],
+    gyr: [["Чёрный кречет", "Тёмный и редкий кречет, отличающийся силой присутствия и высоким спросом в категории элитных соколов."], ["Серый кречет", "Кречет, сбалансированный по цвету и строению, объединяющий силу и стабильность и служащий базовым производственным программам."], ["Белый кречет", "Чистый белый кречет, подразделяющийся на White, Super White и Ultra White по степени чистоты и редкости."]],
     science: {
       eyebrow: "Release & Tracking",
       title: "Выпуск и отслеживание",
@@ -372,6 +372,17 @@ $$(".peregrine-controls button").forEach((button) => {
     if (!track || !card) return;
     const direction = Number(button.dataset.peregrineScroll || 1);
     const distance = card.getBoundingClientRect().width + 16;
+    track.scrollBy({ left: distance * direction, behavior: "smooth" });
+  });
+});
+
+$$(".gyr-controls button").forEach((button) => {
+  button.addEventListener("click", () => {
+    const track = $(".gyr-track");
+    const card = track?.querySelector("section");
+    if (!track || !card) return;
+    const direction = Number(button.dataset.gyrScroll || 1);
+    const distance = card.getBoundingClientRect().width + 12;
     track.scrollBy({ left: distance * direction, behavior: "smooth" });
   });
 });
