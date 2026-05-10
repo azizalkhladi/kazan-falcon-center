@@ -85,7 +85,7 @@ const translations = {
       req: ["المتطلبات", ["خبرة متقدمة في إنتاج الصقور وإدارة برامج التفريخ", "معرفة دقيقة بالسلالات والتهجين (Gyr, Saker, Peregrine)", "فهم دورات الإنتاج والتغذية والرعاية", "القدرة على إدارة فريق وتشغيل مركز إنتاج متكامل"]],
       apply: ["التقديم", "إذا كنت ترى في نفسك الكفاءة والشغف، يرجى التواصل معنا وإرسال بياناتك المهنية.", "نبحث عن خبرة حقيقية في الإنتاج… تقود مشروعًا بمعايير عالمية"]
     },
-    contact: ["Contact", "تواصل معنا", ["البريد الإلكتروني", "سيضاف لاحقًا"], ["أرقام التواصل", "ستضاف لاحقًا"], ["Telegram", "سيضاف لاحقًا"]],
+    contact: ["Contact", "تواصل معنا", ["البريد الإلكتروني", "kazanfalconcenter@gmail.com"], ["WhatsApp", "00966508050211"], ["Telegram", "00966508050211"]],
     footer: ["مركز كازان الدولي لإنتاج وأبحاث الصقور", "Kazan Falcon Center"]
   },
   en: {
@@ -145,7 +145,7 @@ const translations = {
     },
     film: ["Kazan Falcon Film", "Project Scene"],
     career: { intro: ["Career Opportunities", "Join Our Team", "If you have passion and experience in falconry, we invite you to join our team."], role: ["We are looking for", "Executive Director", "Executive Director", "With high experience in Falcon Breeding & Production, preferably of Russian nationality, to lead operations and supervise the development of the center according to the highest professional standards."], req: ["Requirements", ["Advanced experience in falcon production and management of breeding programs", "Precise knowledge of bloodlines and hybridization (Gyr, Saker, Peregrine)", "Understanding of production, feeding, and care cycles", "Ability to manage a team and operate a complete production center"]], apply: ["Application", "If you see in yourself competence and passion, please contact us and send your professional data.", "We are looking for real experience in production… leading a project by global standards"] },
-    contact: ["Contact", "Contact Us", ["Email", "To be added later"], ["Contact Numbers", "To be added later"], ["Telegram", "To be added later"]],
+    contact: ["Contact", "Contact Us", ["Email", "kazanfalconcenter@gmail.com"], ["WhatsApp", "00966508050211"], ["Telegram", "00966508050211"]],
     footer: ["Kazan International Falcon Production and Research Center", "Kazan Falcon Center"]
   },
   ru: {
@@ -202,7 +202,7 @@ const translations = {
     },
     film: ["Kazan Falcon Film", "Сцена проекта"],
     career: { intro: ["Career Opportunities", "Join Our Team", "Если у вас есть страсть и опыт в области соколиной охоты, мы приглашаем вас присоединиться к нашей команде."], role: ["Мы ищем", "Исполнительный директор", "Executive Director", "С большим опытом в производстве соколов (Falcon Breeding & Production), желательно российской национальности, для руководства операциями и контроля развития центра по высочайшим профессиональным стандартам."], req: ["Требования", ["Продвинутый опыт в производстве соколов и управлении программами разведения", "Точное знание линий и гибридизации (Gyr, Saker, Peregrine)", "Понимание циклов производства, кормления и ухода", "Способность управлять командой и запускать полноценный производственный центр"]], apply: ["Подача заявки", "Если вы видите в себе компетентность и страсть, пожалуйста, свяжитесь с нами и отправьте свои профессиональные данные.", "Мы ищем реальный опыт в производстве… который ведёт проект по мировым стандартам"] },
-    contact: ["Contact", "Связаться с нами", ["Электронная почта", "Будет добавлено позже"], ["Контактные номера", "Будут добавлены позже"], ["Telegram", "Будет добавлено позже"]],
+    contact: ["Contact", "Связаться с нами", ["Электронная почта", "kazanfalconcenter@gmail.com"], ["WhatsApp", "00966508050211"], ["Telegram", "00966508050211"]],
     footer: ["Казанский международный центр производства и исследований соколов", "Kazan Falcon Center"]
   }
 };
